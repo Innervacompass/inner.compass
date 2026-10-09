@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>心途导航｜人生方向自我探索</title>
+<style>
+:root{--ink:#26343a;--muted:#718084;--cream:#faf8f3;--card:#fff;--gold:#b48a58;--gold2:#8d6a42;--line:#e8e1d6;--soft:#f3efe8;--c1:#5F8FB4;--c2:#8B7BA8;--c3:#6F9B82;--c4:#D19A62;--c5:#C47E83}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:"Noto Sans SC","Microsoft YaHei",Arial,sans-serif;background:linear-gradient(135deg,#fbfaf7,#f4efe7);min-height:100vh}
+.wrap{width:min(720px,92%);margin:auto;padding:24px 0 46px}.brand{text-align:center;margin-bottom:18px}.brand-name{font-size:18px;font-weight:600;letter-spacing:4px}.brand-en{font-size:10px;letter-spacing:3px;color:var(--muted);margin-top:5px}
+.card{background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:24px;padding:32px;box-shadow:0 14px 45px rgba(56,45,30,.08)}
+h1{margin:0;text-align:center;font-size:29px;line-height:1.4;font-weight:600}.subtitle{text-align:center;color:var(--muted);font-size:14px;line-height:1.8;margin:14px auto 23px}.en{font-size:.92em;color:var(--muted);line-height:1.7}
+.intro-note{background:var(--soft);border-radius:17px;padding:18px;line-height:1.75;font-size:13px;color:#59676b;margin-bottom:23px}.intro-note strong{color:var(--ink)}
+.btn{border:0;border-radius:999px;padding:13px 27px;background:var(--gold);color:#fff;font-size:15px;cursor:pointer;display:block;margin:auto}.btn:hover{background:var(--gold2)}.button-en{font-size:11px;opacity:.85;margin-left:3px}
+.progress-area{margin-bottom:27px}.progress-top{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;margin-bottom:8px}.progress{height:5px;background:#eee9e0;border-radius:99px;overflow:hidden}.progress-bar{height:100%;background:var(--gold);width:0;transition:.25s}
+.dimension{text-align:center;color:var(--gold2);font-size:12px;letter-spacing:1px;margin-bottom:13px}.question{text-align:center;font-size:22px;line-height:1.55;font-weight:500;margin:0 auto 7px;max-width:600px}.question-en{text-align:center;color:var(--muted);font-size:12px;line-height:1.6;margin:0 auto 25px;max-width:600px}
+.options{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.option{min-height:92px;border:1px solid var(--line);border-radius:15px;background:#fff;color:var(--ink);padding:10px 5px;cursor:pointer;font-size:12px;transition:.2s}.option:hover{border-color:var(--gold);background:#fcfaf6}.option.selected{background:var(--gold);border-color:var(--gold);color:#fff}.num{display:block;font-size:17px;font-weight:600;margin-bottom:5px}.en-label{display:block;font-size:9px;opacity:.78;line-height:1.3;margin-top:4px}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:24px}.nav button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 18px;color:var(--ink);cursor:pointer}.nav .next{background:var(--gold);border-color:var(--gold);color:#fff}.nav button:disabled{opacity:.35;cursor:not-allowed}.nav span{font-size:9px;opacity:.7}
+.radar-section{margin:22px 0 24px;padding:18px 12px;background:#fff;border:1px solid var(--line);border-radius:18px}.radar-heading{text-align:center;font-size:18px;margin:0 0 4px}.radar-sub{text-align:center;color:var(--muted);font-size:11px;line-height:1.6;margin-bottom:10px}.radar-svg{display:block;width:100%;max-width:440px;height:auto;margin:0 auto}.dimension-legend{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 4px 0}.legend-item{display:flex;align-items:center;gap:8px;font-size:12px;line-height:1.4;min-width:0}.legend-dot{width:10px;height:10px;border-radius:50%;flex:none}.legend-name{flex:1}.legend-score{font-weight:700;white-space:nowrap}.focus-box{margin-top:18px;padding:17px;border-radius:16px;background:var(--soft);line-height:1.8;font-size:14px}.focus-box h3{font-size:15px;margin:0 0 8px}.result-icon{text-align:center;font-size:46px}.result-label{text-align:center;color:var(--gold2);font-size:12px;letter-spacing:2px;margin:3px 0 6px}.result-title{text-align:center;font-size:28px;margin:0 0 8px}.score{text-align:center;color:var(--muted);font-size:13px;margin-bottom:23px}.result-box{background:var(--soft);border-radius:17px;padding:20px;line-height:1.85;font-size:14px}.cta{text-align:center;border-top:1px solid var(--line);margin-top:23px;padding-top:22px}.cta p{font-size:14px;line-height:1.8;color:var(--muted)}.contact{font-size:12px;line-height:1.8;color:var(--muted);margin-top:13px}.restart{background:transparent;color:var(--gold2);border:1px solid var(--gold);margin-top:13px}.disclaimer{text-align:center;color:#899194;font-size:10px;line-height:1.7;margin-top:20px}.hidden{display:none!important}
+@media(max-width:600px){.card{padding:25px 17px;border-radius:20px}h1{font-size:25px}.question{font-size:20px}.options{grid-template-columns:repeat(2,1fr)}.option{min-height:78px}.option:nth-child(3){grid-column:1/-1}.wrap{width:94%;padding-top:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="brand"><div class="brand-name">心途导航</div><div class="brand-en">INNERVA · COMPASS</div></div>
+
+<main class="card">
+<section id="intro">
+<h1>你现在的人生，<br>需要一个「导航」吗？</h1><div class="en" style="text-align:center;margin-top:-8px;margin-bottom:14px">Could a personal compass help you find your direction?</div>
+<p class="subtitle">一个约 2–3 分钟的人生方向自我探索。<br><span class="en">A 2–3 minute self-assessment to reflect on your current sense of direction, self-understanding and ability to move forward.</span></p>
+<div class="intro-note">
+<strong>开始前，请先记住一件事：</strong><br>
+不要想太多，也不要反复推敲每一道题。请根据你看到题目后的<strong>第一个直觉与感觉</strong>，选择最符合你目前状态的答案。<br><br>
+<span class="en"><strong>Before you begin:</strong><br>Don't overthink your answers. Choose the response that best matches your <strong>first instinct and current state</strong>. Your first response is often more useful for reflecting where you are right now.</span><br><br>
+这不是心理诊断，也不能判断你是否「需要」人生教练。它只是一个自我探索工具，让你停下来看看：<br>
+<strong>我现在在哪里？我想往哪里走？是什么让我还没有出发？</strong><br><br>
+<span class="en">This is not a psychological diagnosis, nor does it determine whether you “need” life coaching. It is a reflection tool to help you notice: <strong>Where am I now? Where do I want to go? What may be holding me back?</strong></span>
+</div>
+<button class="btn" onclick="startQuiz()">开始探索 <span class="button-en">Begin</span></button>
+</section>
+
+<section id="quiz" class="hidden">
+<div class="progress-area"><div class="progress-top"><span id="progressText"></span><span id="percent"></span></div><div class="progress"><div class="progress-bar" id="bar"></div></div></div>
+<div class="dimension" id="dimension"></div><h2 class="question" id="question"></h2><div class="question-en" id="questionEn"></div>
+<div class="options" id="options"></div>
+<div class="nav"><button id="prev" onclick="prevQuestion()">上一题 <span>Back</span></button><button class="next" id="next" onclick="nextQuestion()" disabled>下一题 <span>Next</span></button></div>
+</section>
+
+<section id="result" class="hidden">
+<div class="result-icon" id="resultIcon"></div><div class="result-label">你的探索结果 · Your Reflection</div><h2 class="result-title" id="resultTitle"></h2><div class="score" id="score"></div>
+<div class="result-box" id="resultText"></div>
+<div class="radar-section"><h3 class="radar-heading">你的个人导航图</h3><div class="radar-sub">Your Personal Compass · 每个维度满分 15 分 / Each dimension is scored out of 15</div><div id="radarChart"></div><div id="dimensionLegend" class="dimension-legend"></div></div>
+<div class="focus-box" id="focusBox"></div>
+<div class="cta">
+<p>如果这个结果让你开始思考自己的方向，也许你不需要马上找到答案。<br><strong>有时候，先有一个空间把自己听清楚，就已经是一个开始。</strong><br><br><span class="en">If this result makes you reflect on your direction, you do not need to find all the answers right away. Sometimes, having a space to truly hear yourself is already a beginning.</span></p>
+<button class="btn" onclick="showCTA()">了解「心途启程」 <span class="button-en">Learn more</span></button>
+<div id="ctaDetails" class="hidden"><div class="contact">20 分钟探索对谈 · 心途导航<br><span class="en">20-Minute Exploration Conversation · Innerva</span><br>Instagram：@innerva.compass<br>WhatsApp：+65 88497678</div></div>
+<button class="btn restart" onclick="restart()">重新测试 <span class="button-en">Retake</span></button>
+</div>
+<div class="disclaimer">本测试仅供自我探索与反思，不构成心理、医学或其他专业诊断。如果你正经历严重或持续的心理困扰，请考虑寻求合适的专业支持。<br><span class="en">This assessment is for self-reflection only and is not a psychological, medical or professional diagnosis. If you are experiencing significant or ongoing distress, consider seeking appropriate professional support.</span></div>
+</section>
+</main>
+</div>
+
+<script>
+const questions=[
+{d:"方向感 · Direction",q:"我清楚知道自己现阶段真正想要的是什么。",en:"I have a clear sense of what I truly want at this stage of my life."},
+{d:"方向感 · Direction",q:"即使未来还不确定，我大致知道自己想往哪个方向走。",en:"Even if my future is uncertain, I have a general sense of where I want to go."},
+{d:"方向感 · Direction",q:"当需要做人生重要选择时，我能够判断什么对自己更重要。",en:"When making important life decisions, I can identify what matters most to me."},
+{d:"自我理解 · Self-understanding",q:"我能够分辨「这是我真正想要的」，还是「别人希望我这样做」。",en:"I can tell the difference between what I truly want and what others expect from me."},
+{d:"自我理解 · Self-understanding",q:"我了解自己的优势、需要，以及容易卡住自己的地方。",en:"I understand my strengths, needs, and the things that tend to hold me back."},
+{d:"自我理解 · Self-understanding",q:"我能够说出自己目前最想改变或突破的事情。",en:"I can identify what I most want to change or work through right now."},
+{d:"行动力 · Action",q:"当我决定改变某件事情时，我知道自己可以从哪里开始。",en:"When I decide to change something, I know where I can begin."},
+{d:"行动力 · Action",q:"即使没有人推动我，我也能够为自己想要的生活采取行动。",en:"Even without someone pushing me, I can take action toward the life I want."},
+{d:"行动力 · Action",q:"当事情没有按照计划发展时，我能够调整方向，而不是完全停下来。",en:"When things do not go as planned, I can adjust my direction instead of completely stopping."},
+{d:"内在稳定 · Inner stability",q:"面对不确定的未来时，我仍然能够相信自己可以找到答案。",en:"When facing an uncertain future, I can still trust myself to find my way."},
+{d:"内在稳定 · Inner stability",q:"我能够听见自己的声音，而不会轻易被别人的意见左右。",en:"I can hear my own voice without being easily swayed by other people's opinions."},
+{d:"内在稳定 · Inner stability",q:"即使暂时没有答案，我也能够允许自己慢慢探索。",en:"Even when I do not have an answer yet, I can allow myself time to explore."},
+{d:"卡点觉察 · Awareness",q:"我知道目前是什么因素阻碍着我前进。",en:"I understand what is currently preventing me from moving forward."},
+{d:"卡点觉察 · Awareness",q:"我不会长时间反复思考同一个问题，却迟迟无法做出改变。",en:"I do not spend a long time going over the same problem without making a change."},
+{d:"卡点觉察 · Awareness",q:"当我感到迷茫或卡住时，我能够通过自己的方式理清思绪并重新找到方向。",en:"When I feel lost or stuck, I can work through my thoughts and find my direction again."}
+];
+const labels=[
+{zh:"非常不符合",en:"Strongly disagree"},
+{zh:"不太符合",en:"Disagree"},
+{zh:"有时符合 / 还不确定",en:"Sometimes / Unsure"},
+{zh:"比较符合",en:"Agree"},
+{zh:"非常符合",en:"Strongly agree"}];
+let current=0,answers=Array(15).fill(null);
+function startQuiz(){intro.classList.add("hidden");quiz.classList.remove("hidden");render();}
+function render(){
+let x=questions[current],pct=Math.round((current+1)/15*100);
+progressText.textContent=`第 ${current+1} / 15 题 · Question ${current+1} of 15`;percent.textContent=pct+"%";bar.style.width=pct+"%";dimension.textContent=x.d;question.textContent=x.q;questionEn.textContent=x.en;options.innerHTML="";
+labels.forEach((l,i)=>{let b=document.createElement("button");b.className="option"+(answers[current]===i+1?" selected":"");b.innerHTML=`<span class="num">${i+1}</span>${l.zh}<span class="en-label">${l.en}</span>`;b.onclick=()=>{answers[current]=i+1;render()};options.appendChild(b)});
+prev.disabled=current===0;next.disabled=answers[current]===null;next.innerHTML=current===14?"查看结果 <span>Result</span>":"下一题 <span>Next</span>";
+}
+function prevQuestion(){if(current){current--;render()}}
+function nextQuestion(){if(answers[current]===null)return;if(current<14){current++;render()}else{showResult()}}
+function getResult(t){
+if(t<=32)return{icon:"🌊",title:"重新找回方向 · Finding Your Direction Again",text:`你的回答显示，目前可能有多个方面正在影响你前进的状态。你可能正在面对一段较大的转变、长期的迷茫，或还没有真正厘清的问题。<br><br><span class="en">Your responses suggest that several areas may currently be affecting your ability to move forward. You may be navigating a major transition, ongoing uncertainty, or questions that have not yet been fully clarified.</span><br><br>这并不意味着你「出了问题」。它可能只是提醒你：现在也许值得暂时停下来，把自己真正的声音听清楚，再决定下一步。`};
+if(t<=46)return{icon:"🧭",title:"暂时迷航 · Feeling a Little Lost",text:`你的回答显示，目前可能有一些因素让你难以顺利向前。你可能知道自己想改变，却很难确定从哪里开始；也可能在想法、期待与实际行动之间反复拉扯。<br><br><span class="en">Your responses suggest that some factors may be making it harder to move forward. You may want change but feel unsure where to begin, or find yourself caught between thoughts, expectations and action.</span>`};
+if(t<=61)return{icon:"🌤️",title:"正在探索 · Exploring Your Way",text:`你似乎已经拥有一定的方向感与自我理解，但仍有一些地方还没有完全想清楚。你可能知道自己不想要什么，却还在寻找真正适合自己的方向；或者知道方向，却还在寻找下一步。<br><br><span class="en">You appear to have a reasonable sense of direction and self-understanding, while some areas are still unfolding. You may know what you do not want, but are still discovering what truly fits you—or you may know the direction but not yet the next step.</span>`};
+return{icon:"🌱",title:"自在前行 · Moving Forward with Ease",text:`你的回答显示，你目前在方向感、自我理解与行动之间，整体有不错的连接。你似乎能够听见自己的声音，也较有能力为自己想要的生活采取行动。<br><br><span class="en">Your responses suggest a strong connection between your sense of direction, self-understanding and ability to act. You appear able to hear your own voice and take action toward the life you want.</span><br><br>你未必需要不停寻找答案。不过，当你进入人生新阶段、面对重大选择，或想进一步突破自己时，coaching 仍然可以成为一个整理思绪与探索可能性的空间。<br><br><span class="en">You may not need to keep searching for answers. However, when you enter a new stage of life, face an important decision, or want to grow further, coaching can offer a space to organize your thoughts and explore possibilities.</span>`};
+}
+const dimensions=[
+{zh:"方向感",en:"Direction",color:"#5F8FB4",start:0,reflection:"你现阶段真正想要的是什么？如果暂时不考虑别人的期待，你希望自己往哪里走？",reflectionEn:"What do you truly want at this stage of life, and where would you like to go if you set others’ expectations aside?"},
+{zh:"自我理解",en:"Self-understanding",color:"#8B7BA8",start:3,reflection:"你能够分辨自己的真实需要与外界期待吗？有哪些部分还值得你更深入地认识？",reflectionEn:"Can you distinguish your own needs from others’ expectations? What parts of yourself would you like to understand more deeply?"},
+{zh:"行动力",en:"Action",color:"#6F9B82",start:6,reflection:"当你知道自己想改变什么时，是什么帮助你开始行动，又有什么可能让你停下来？",reflectionEn:"When you know what you want to change, what helps you take action—and what might cause you to pause?"},
+{zh:"内在稳定",en:"Inner stability",color:"#D19A62",start:9,reflection:"面对不确定性时，你通常如何听见自己的声音，并与暂时没有答案的状态相处？",reflectionEn:"When facing uncertainty, how do you hear your own voice and make room for not having all the answers yet?"},
+{zh:"卡点觉察",en:"Awareness of obstacles",color:"#C47E83",start:12,reflection:"有没有某些困境反复出现？你目前如何理解它们，以及它们对你意味着什么？",reflectionEn:"Do certain challenges keep recurring? How do you understand them, and what might they mean to you?"}
+];
+function renderRadar(scores){
+ const W=360,H=330,cx=180,cy=154,R=94,labelR=132;
+ const angles=[-Math.PI/2,-Math.PI/2+2*Math.PI/5,-Math.PI/2+4*Math.PI/5,-Math.PI/2+6*Math.PI/5,-Math.PI/2+8*Math.PI/5];
+ const point=(r,a)=>[cx+r*Math.cos(a),cy+r*Math.sin(a)];
+ const pts=(r)=>angles.map(a=>point(r,a).map(v=>v.toFixed(1)).join(',')).join(' ');
+ let svg=`<svg class="radar-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="五个维度个人分数雷达图 / Personal radar chart across five dimensions">`;
+ // Each dimension gets a softly filled wedge spanning a complete outer edge.
+ dimensions.forEach((d,i)=>{const a=point(R,angles[i]),b=point(R,angles[(i+1)%angles.length]);svg+=`<polygon points="${cx},${cy} ${a[0].toFixed(1)},${a[1].toFixed(1)} ${b[0].toFixed(1)},${b[1].toFixed(1)}" fill="${d.color}" fill-opacity=".28" stroke="${d.color}" stroke-opacity=".8" stroke-width="1.2"/>`});
+ [0.2,0.4,0.6,0.8,1].forEach((f,i)=>{svg+=`<polygon points="${pts(R*f)}" fill="none" stroke="#e7e2d9" stroke-width="1"/>`; if(i<4)svg+=`<text x="${cx+5}" y="${cy-R*f+4}" fill="#929b9c" font-size="9">${Math.round(f*15)}</text>`});
+ angles.forEach((a,i)=>{const [x,y]=point(R,a);svg+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="#ffffff" stroke-width="1.5" opacity=".95"/>`});
+ const valuePts=scores.map((v,i)=>point(R*(v/15),angles[i]));
+ svg+=`<polygon points="${valuePts.map(p=>p.map(v=>v.toFixed(1)).join(',')).join(' ')}" fill="#ffffff" fill-opacity=".10" stroke="#536d65" stroke-width="2" stroke-linejoin="round"/>`;
+ valuePts.forEach((p,i)=>{svg+=`<circle cx="${p[0]}" cy="${p[1]}" r="4.5" fill="${dimensions[i].color}" stroke="#fff" stroke-width="1.5"/><text x="${(p[0]+(p[0]>=cx?7:-7)).toFixed(1)}" y="${(p[1]-7).toFixed(1)}" text-anchor="${p[0]>=cx?'start':'end'}" fill="${dimensions[i].color}" font-size="10" font-weight="700" paint-order="stroke" stroke="#fff" stroke-width="3">${scores[i]}</text>`});
+ // Dimension labels and scores sit beside the edges rather than at the vertices.
+ dimensions.forEach((d,i)=>{const p1=point(R,angles[i]),p2=point(R,angles[(i+1)%angles.length]);const x=(p1[0]+p2[0])/2,y=(p1[1]+p2[1])/2;const lx=x+(x-cx)*.34,ly=y+(y-cy)*.34;let anchor='middle';if(lx<cx-18)anchor='end';else if(lx>cx+18)anchor='start';svg+=`<text x="${lx.toFixed(1)}" y="${(ly-2).toFixed(1)}" text-anchor="${anchor}" fill="${d.color}" font-size="10.5" font-weight="700">${d.zh}</text><text x="${lx.toFixed(1)}" y="${(ly+11).toFixed(1)}" text-anchor="${anchor}" fill="#718084" font-size="8.5">${scores[i]} / 15</text>`});
+ svg+='</svg>';document.getElementById('radarChart').innerHTML=svg;
+ document.getElementById('dimensionLegend').innerHTML=dimensions.map((d,i)=>`<div class="legend-item"><span class="legend-dot" style="background:${d.color}"></span><span class="legend-name">${d.zh}<br><span class="en">${d.en}</span></span><span class="legend-score" style="color:${d.color}">${scores[i]}/15</span></div>`).join('');
+}
+function showResult(){let t=answers.reduce((a,b)=>a+b,0),r=getResult(t);quiz.classList.add("hidden");result.classList.remove("hidden");resultIcon.textContent=r.icon;resultTitle.textContent=r.title;score.textContent=`你的探索分数：${t} / 75 · 分数越高，代表目前自我方向感与行动状态的自评越清晰 | Your reflection score: ${t} / 75 · A higher score suggests a clearer self-rated sense of direction and ability to move forward.`;resultText.innerHTML=r.text;
+ const scores=dimensions.map(d=>answers.slice(d.start,d.start+3).reduce((a,b)=>a+b,0));renderRadar(scores);
+ const min=Math.min(...scores), lows=dimensions.map((d,i)=>({...d,score:scores[i],i})).filter(d=>d.score===min);
+ const focus=document.getElementById('focusBox');
+ if(lows.length===1){const d=lows[0];focus.innerHTML=`<h3>一个值得进一步探索的领域 · A Space to Explore</h3><strong style="color:${d.color}">${d.zh} · ${d.en}</strong><br>这个维度是你本次回答中相对较低的一项。它不代表你有问题，也不能单凭分数下定论；你可以把它当作一个值得温柔地了解自己的切入点。<br><span class="en">This was your relatively lowest-scoring dimension. It does not mean anything is wrong, and the score alone cannot define you; treat it as a gentle starting point for self-understanding.</span><br><br><strong>给你的反思问题 · A Reflection Question：</strong><br>${d.reflection}<br><span class="en">${d.reflectionEn}</span><br><br><span class="en">This is the lowest-scoring area in your responses. It does not mean something is wrong; consider it a gentle starting point for further reflection.</span>`}
+ else{focus.innerHTML=`<h3>一个值得进一步探索的领域 · A Space to Explore</h3>你在多个维度取得相同的相对低分：${lows.map(d=>d.zh).join('、')}。这可能意味着有不止一个方面值得你进一步了解。你可以先从最让自己有共鸣的方向开始，而不必急着下结论。<br><span class="en">Several dimensions share the same relatively low score. More than one area may be worth exploring; you can begin with whichever feels most relevant, without rushing to a conclusion.</span><br><br>${lows.map(d=>`<strong style="color:${d.color}">${d.zh} · ${d.en}：</strong>${d.reflection}<br><span class="en">${d.reflectionEn}</span>`).join('<br><br>')}`}
+ scrollTo({top:0,behavior:"smooth"})}
+function showCTA(){ctaDetails.classList.remove("hidden")}
+function restart(){current=0;answers=Array(15).fill(null);result.classList.add("hidden");quiz.classList.remove("hidden");ctaDetails.classList.add("hidden");render();scrollTo({top:0,behavior:"smooth"})}
+</script>
+</body>
+</html>
